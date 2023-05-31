@@ -1,2 +1,1 @@
-# CryptoBot
-The bot and cryptography
+# MKCryptoBot
