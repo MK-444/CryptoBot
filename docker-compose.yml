@@ -1,0 +1,13 @@
+version: '3.11'
+
+services:
+  tgbot:
+    container_name: crypto_bot
+    build:
+      context: .
+    command:
+      python3 app.py
+    restart: always
+    volumes:
+      - .:/src
+
